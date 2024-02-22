@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Regestration form challenge</string>
+    <string name="registration_form">Registration form</string>
+    <string name="first_name_input_edit_text">First name</string>
+    <string name="last_name_edit_text">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+</resources>

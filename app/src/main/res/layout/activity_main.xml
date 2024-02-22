@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_form"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="20sp"
+        android:textColor="#666666"/>
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name_input_edit_text"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Anasteisia"
+            android:textSize="18sp"
+            android:textColor="#777777"
+            android:inputType="textCapWords"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name_edit_text"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_last_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Marionkina"
+            android:textSize="18sp"
+            android:textColor="#777777"
+            android:inputType="textCapWords"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="inory@gmail.com"
+            android:textSize="18sp"
+            android:textColor="#777777" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/phone"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="89991140210"
+            android:textSize="18sp"
+            android:textColor="#777777"
+            android:inputType="phone"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginTop="8dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="182546254dev"
+            android:textSize="18sp"
+            android:textColor="#777777" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Send"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+
+</LinearLayout>
